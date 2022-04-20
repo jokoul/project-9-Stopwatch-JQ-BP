@@ -18,16 +18,30 @@
   <body>
     <div class="container-fluid">
       <h1 id="header">Stopwatch</h1>
-    </div>
-    <!--Lap Time-->
-    <div id="lap">
-      <span id="lapminute">00</span>: <span id="lapsecond">00</span>:
-      <span id="lapcentisecond">00</span>
-    </div>
-    <!--Time-->
-    <div class="mt-5 pt-2" id="time">
-      <span id="timeminute">00</span>: <span id="timesecond">00</span>:
-      <span id="timecentisecond">00</span>
+      <!--Lap Time-->
+      <div id="lap">
+        <span id="lapminute">00</span>: <span id="lapsecond">00</span>:
+        <span id="lapcentisecond">00</span>
+      </div>
+      <!--Time-->
+      <div class="mt-5 pt-2" id="time">
+        <span id="timeminute">00</span>: <span id="timesecond">00</span>:
+        <span id="timecentisecond">00</span>
+      </div>
+      <!--Controls-->
+      <div id="controlsContainer" class="row">
+        <div class="col-2 offset-4">
+          <div id="startButton" class="control">Start</div>
+          <div id="stopButton" class="control">Stop</div>
+          <div id="resumeButton" class="control">Resume</div>
+        </div>
+        <div class="col-2">
+          <div id="lapButton" class="control">Lap</div>
+          <div id="resetButton" class="control">Reset</div>
+        </div>
+      </div>
+      <!--LAPS-->
+      <div id="laps"></div>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -36,5 +50,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/stopwatch.js"></script>
   </body>
 </html>
