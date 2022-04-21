@@ -1,6 +1,6 @@
 # project-9-Stopwatch-JQ-BP
 
-a **simple** stopwatch tool to records time quickly.
+a **simple** stopwatch tool to record time quickly.
 
 ## stack
 
