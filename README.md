@@ -8,4 +8,4 @@ jQuery, HTML, CSS, Bootstrap
 
 ## Launch
 
-try it by clicking [Here](https://joan-kouloumba/stopwatch).
+try it by clicking [Here](https://joan-kouloumba.in/stopwatch).
